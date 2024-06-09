@@ -1,0 +1,21 @@
+
+.loader {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(32, 32, 32);
+ 
+}
+
+
+.word {
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 5px;
+    -webkit-text-stroke: 0.9px rgb(254, 238, 217);
+  -webkit-text-fill-color: black;
+}

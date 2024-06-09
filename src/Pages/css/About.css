@@ -1,0 +1,60 @@
+.about {
+ 
+  width: 100%;
+  height: auto;
+  background-color: black;
+ 
+}
+.about h1 {
+  margin: 0;
+  text-transform: uppercase;
+
+  font-size: 300px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 10px;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  -webkit-text-fill-color: rgb(0, 0, 0);
+}
+.bio {
+  height: auto;
+  margin: 10px 60px;
+ 
+}
+.bio p {
+  margin: 0;
+  color: #8f9094;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.8;
+  
+}
+.bio p span{
+  color: #3ccf91;
+  /* text-transform: uppercase; */
+  font-weight: 500;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+ 
+}
+
+@media (max-width: 768px) {
+  .bio {
+    margin: 10px 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .bio {
+    margin: 10px 20px;
+  }
+  .bio p {
+    font-size: 20px;
+  }
+}

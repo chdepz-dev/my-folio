@@ -1,0 +1,149 @@
+.education {
+  background-color: rgb(0, 0, 0);
+  color: #fde7cb;
+}
+
+.education h1 {
+  margin: 40px 0px;
+  margin-left: 60px;
+  font-weight: 500;
+}
+
+.education-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 0px;
+}
+
+.education .school {
+  margin: 0 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+ 
+}
+
+.education .school img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+}
+
+.school-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* max-width: 600px; */
+  padding: 0px 20px;
+  box-shadow: 1px 1px 0px 0.3px #3ccf91;
+  /* --webkit-box-shadow: 0px 0px 10px 2.5px #3ccf91;
+    --moz-box-shadow: 0px 0px 10px 2.5px #3ccf91; */
+
+  border-radius: 10px;
+}
+
+.school-info h2 {
+  margin: 5px 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.school-info h3 {
+  margin: 0;
+  font-size: 17px;
+  color: #8f9094;
+  font-weight: 500;
+}
+
+.school-info p span {
+  color: #3ccf91;
+  font-size: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .education h1 {
+    margin-left: 60px;
+  }
+
+  .education .school {
+    margin: 0 60px;
+    flex-direction: row;
+    /* align-items: center; */
+  }
+
+  .school-info {
+    width: 50%;
+  }
+}
+@media (max-width: 992px) {
+  .education .school img {
+    max-width: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .education h1 {
+    margin-left: 20px;
+    font-size: 2em;
+  }
+  .education .school {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .education .school img {
+    max-width: 100%;
+  }
+  .school-info {
+    width: 100%;
+    padding: 20px 0px;
+  }
+
+  .school-info h2 {
+    font-size: 18px;
+  }
+
+  .school-info h3 {
+    font-size: 16px;
+  }
+
+  .school-info p span {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .education h1 {
+    margin-left: 20px;
+    font-size: 2em;
+  }
+
+  .education .school {
+    margin: 0 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .education .school img {
+    max-width: 100%;
+  }
+  .school-info {
+    width: 100%;
+    padding: 20px 0px;
+  }
+
+  .school-info h2 {
+    font-size: 18px;
+  }
+
+  .school-info h3 {
+    font-size: 16px;
+  }
+
+  .school-info p span {
+    font-size: 16px;
+  }
+}
