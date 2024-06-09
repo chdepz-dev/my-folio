@@ -38,8 +38,9 @@
   /* max-width: 600px; */
   padding: 0px 20px;
   box-shadow: 1px 1px 0px 0.3px #3ccf91;
-  /* --webkit-box-shadow: 0px 0px 10px 2.5px #3ccf91;
-    --moz-box-shadow: 0px 0px 10px 2.5px #3ccf91; */
+  --webkit-box-shadow: 1px 1px 0px 0.3px #3ccf91;
+  --moz-box-shadow: 1px 1px 0px 0.3px #3ccf91;
+
 
   border-radius: 10px;
 }

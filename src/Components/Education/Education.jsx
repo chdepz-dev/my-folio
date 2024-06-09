@@ -22,7 +22,7 @@ const Education = () => {
 
         tl.from(elements, {
             y: 100,
-            scale: 1.1,
+            // scale: 1.1,
             opacity: 0,
             duration: 2.4,
             stagger: 0.5,
