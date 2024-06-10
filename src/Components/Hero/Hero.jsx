@@ -146,7 +146,7 @@ const Hero = () => {
           options={options}
         />
         <div className="left-hero">
-          <h1>Hello There, This is</h1>
+          <h1>Hello there! This is</h1>
           <h1>
             <span>DIPAK CHAUDHARY.</span>
           </h1>
@@ -179,8 +179,8 @@ const Hero = () => {
             </a>
           </div>
           <div className="buttons">
-            <button className="btn">Contact</button>
-            <button className="btn">Resume</button>
+            <button className="btn1">Contact</button>
+            <button className="btn1">Resume</button>
           </div>
         </div>
 

@@ -1,10 +1,40 @@
-import React from "react";
+import React,{useRef} from "react";
 import "./Projects.css";
 import projects from "../../Data/Data";
-
+import { useGSAP } from "@gsap/react";
+import { gsap } from "gsap";
 const Projects = () => {
+  const projectRef = useRef(null)
+  useGSAP(() => {
+    const elements = projectRef.current.querySelectorAll(".project");
+    const tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: projectRef.current,
+            start: "top center",
+            end: "bottom center",
+            scrub: true,
+          
+        }
+    });
+
+    tl.from(elements, {
+      y: 100,
+        // scale: 1.1,
+        opacity: 0,
+        duration: 0.6,
+        stagger: 0.3,
+        ease: "power4.out",
+    });
+
+    // Clean up on component unmount
+    return () => {
+        if (tl.scrollTrigger) tl.scrollTrigger.kill();
+        tl.kill();
+    };
+}, []);
+
   return (
-    <div className="projects">
+    <div ref={projectRef} className="projects">
       <h1> 🔰My projects🔰</h1>
       <div className="projects-container">
         {projects.map((project, index) => (

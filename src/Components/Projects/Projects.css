@@ -138,6 +138,7 @@
   color: rgb(144, 144, 144);
   text-align: justify;
   word-wrap: break-word;
+  word-break: break-all;
 }
 
 .project-desc h3 {
@@ -361,8 +362,8 @@
 
 @media (max-width: 768px) {
   .projects h1 {
-    font-size: 20px;
-    margin: 0 20px;
+    font-size: 22px;
+    margin: 0 30px;
   }
 
   .projects-container {
@@ -411,4 +412,22 @@
     height: 50px;
     font-size: 12px;
   }
+}
+
+@media (max-width: 576px){
+  .projects h1 {
+    font-size: 22px;
+    margin: 0 30px;
+  }
+
+  .projects-container {
+    gap: 20px;
+  }
+
+  .projects-container .project {
+    margin: 0 10px;
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
+
 }

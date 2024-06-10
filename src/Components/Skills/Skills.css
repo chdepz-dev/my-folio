@@ -19,9 +19,31 @@
   }
   
   .frontend h1 {
-    color: #fde7cb;
-    font-weight: 200;
-    font-size: 25px;
+    /* color: #fde7cb; */
+    font-weight: 300;
+    font-size: 23px;
+  }
+  .frontend h1{
+    color: rgb(255, 255, 255);
+    background-position: 0;
+    background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text12-animation 6s infinite linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes text12-animation {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 200px;
+    }
+    100% {
+      background-position: 0;
+    }
   }
   
   .frontend-logos {

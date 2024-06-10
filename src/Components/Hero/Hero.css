@@ -35,18 +35,43 @@
 .left-hero h1 {
   font-weight: bold;
   margin: 0;
+  color: rgb(253, 231, 203);
 
 }
 
 .left-hero h1 span {
   font-weight: bold;
-  color: rgb(253, 231, 203);
+  /* color: rgb(253, 231, 203); */
   font-size: 50px;
   /* -webkit-text-stroke: 0.9px rgb(254, 238, 217);
   -webkit-text-fill-color: black; */
 }
+.left-hero h1 span{
+  color: rgb(255, 255, 255);
+ font-weight: bold;
+  background-position: 0;
+  background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text12-animation 6s infinite linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text12-animation {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 200px;
+  }
+  100% {
+    background-position: 0;
+  }
+}
 
 .left-hero h1:nth-child(4) {
+  font-size: 28px;
   line-height: 1;
   font-weight: bold;
   color: #8f9094;
@@ -87,7 +112,7 @@
   font-weight: 400;
   text-align: center;
   /* font-family: "Space Mono", monospace; */
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   background-color: transparent;
   border-radius: 10px;
   border: 1px solid #ffffff;
@@ -228,10 +253,14 @@
 
 
   .left-hero h1 {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     line-height: normal;
   }
+  .left-hero h1 span{
+    font-size: 20px;
+  }
+ 
   .left-hero img {
     width: 50px;
     height: 40px;

@@ -16,7 +16,7 @@ const Skills = () => {
   return (
     <div className="skills">
       <div className="frontend">
-        <h1> Frontend Technologies</h1>
+        <h1>🔰Frontend Technologies🔰</h1>
 
         <div className="frontend-logos">
           <img src={css} alt="" />
@@ -27,7 +27,7 @@ const Skills = () => {
         </div>
 
         <div className="backend">
-          <h1>Backend Technologies</h1>
+          <h1>🔰Backend Technologies🔰</h1>
           <div className="backend-logos">
             <img src={node2} alt="" />
             <img src={mongo} alt="" />
