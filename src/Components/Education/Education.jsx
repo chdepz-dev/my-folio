@@ -39,7 +39,7 @@ const Education = () => {
     
   return (
     <div ref={educationRef}  className="education">
-      <h1>My Education</h1>
+      <h1>🔰My Education🔰</h1>
       <div className="education-info">
         <div className="school">
 
