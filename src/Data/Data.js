@@ -1,25 +1,35 @@
+import hamrobazar from "./project_img/Hamrobazar.png"
+
 const projects = [
     {
-        title: "project1",
-        github: "",
+        title: "Hamro Bazar",
+        github: "https://github.com/chdepz-dev/hamro-bazar-ReactCommerce",
         live: "",
-        image: "",
-        Description: "loeskposffffffffffffffffffffffffffffff asjjjjjjjjjjjjjj aejjjjjjjjjj",
+        image: hamrobazar,
+        Description: "Developed a dynamic e-commerce web application using React for the front-end and MongoDB for the database. This project demonstrates my ability to create a full-stack application with a seamless shopping experience, including product listings, user authentication, and order management.",
     },
     {
-        title: "project2",
-        github: "",
+        title: "Hamro Bazar",
+        github: "https://github.com/chdepz-dev/hamro-bazar-ReactCommerce",
         live: "",
-        image: "",
-        Description: "loeskposffffffffffffffffffffffffffffff asjjjjjjjjjjjjjj aejjjjjjjjjj",
+        image: hamrobazar,
+        Description: "Developed a dynamic e-commerce web application using React for the front-end and MongoDB for the database. This project demonstrates my ability to create a full-stack application with a seamless shopping experience, including product listings, user authentication, and order management.",
     },
     {
-        title: "project3",
-        github: "",
+        title: "Hamro Bazar",
+        github: "https://github.com/chdepz-dev/hamro-bazar-ReactCommerce",
         live: "",
-        image: "",
-        Description: "loeskposffffffffffffffffffffffffffffff asjjjjjjjjjjjjjj aejjjjjjjjjj",
+        image: hamrobazar,
+        Description: "Developed a dynamic e-commerce web application using React for the front-end and MongoDB for the database. This project demonstrates my ability to create a full-stack application with a seamless shopping experience, including product listings, user authentication, and order management.",
     },
+    {
+        title: "Hamro Bazar",
+        github: "https://github.com/chdepz-dev/hamro-bazar-ReactCommerce",
+        live: "",
+        image: hamrobazar,
+        Description: "Developed a dynamic e-commerce web application using React for the front-end and MongoDB for the database. This project demonstrates my ability to create a full-stack application with a seamless shopping experience, including product listings, user authentication, and order management.",
+    },
+    
 ]
 
 export default projects;
