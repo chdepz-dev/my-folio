@@ -5,7 +5,7 @@ function Contact() {
     <div className="contact">
       <div className="contact-wrapper">
         <h1>🔰Stay Connected🔰</h1>
-        <p>I'm currently focusing on Front-end Development.</p>
+        <p>I'm currently focusing on <span>Front-end Development</span>.</p>
         <p>Reach out anytime to discuss your projects further.</p>
       </div>
       <div className="contact-button">

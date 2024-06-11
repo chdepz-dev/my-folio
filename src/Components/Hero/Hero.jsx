@@ -5,7 +5,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-
+import { Link, NavLink } from "react-router-dom";
 gsap.registerPlugin(useGSAP);
 
 const Hero = () => {
@@ -179,7 +179,11 @@ const Hero = () => {
             </a>
           </div>
           <div className="buttons">
-            <button className="btn1">Contact</button>
+            
+              <NavLink to="/contact-form" style={{ textDecoration: "none" }}>
+                <button className="btn1">Contact</button>
+              </NavLink>
+            
             <button className="btn1">Resume</button>
           </div>
         </div>

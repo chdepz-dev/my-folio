@@ -45,6 +45,10 @@
     margin: 0;
     color: #909090;
   }
+  .contact-wrapper p span{
+    color:  #1aa76c;
+    font-weight: 600;
+  }
   .contact-button button {
     width: 180px;
     height: 35px;
@@ -59,6 +63,7 @@
     border: 1px solid #0c0c0c;
     transition-duration: 0.3s;
   }
+  
   
   .contact-button button:hover {
     transition-duration: 0.3s;

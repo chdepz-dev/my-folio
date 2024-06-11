@@ -1,0 +1,88 @@
+
+.contact-form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+}
+.contact-form h1{
+    font-size: 22px;
+    font-weight: 600;
+}
+.contact-form h1{
+    color: rgb(255, 255, 255);
+   font-weight: bold;
+    background-position: 0;
+    background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text12-animation 6s infinite linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes text12-animation {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 200px;
+    }
+    100% {
+      background-position: 0;
+    }
+  }
+form{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid white; */
+    width: 50%;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: #1aa76ce6 0px 0px 0px 1.5px;
+}
+form input{
+    padding: 10px;
+    outline: 1px solid rgb(112, 112, 112);
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px ;
+    background-color: #000000;
+    color: white;
+    font-family: "Poppins" sans-serif;
+    font-size: 15px;
+}
+form textarea{
+    padding: 10px;
+    outline: 1px solid rgb(112, 112, 112);
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px ;
+    background-color: #000000;
+    color: white;
+  
+}
+
+.submit-button{
+    margin-top: 20px;
+    width: 30%;
+}
+
+@media(max-width: 920px){
+    form{
+        width: 70%;
+    }
+}
+
+@media(max-width: 756px){
+    form{
+        width: 90%;
+        padding: 30px 20px;
+    }
+    form textarea{
+        font-size: 16px;
+    }
+}

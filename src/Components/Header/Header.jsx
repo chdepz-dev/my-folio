@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import "./Header.css"
+import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,24 +9,65 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
-    <header className={`nav ${isOpen ? 'open' : ''}`}>
-      <div className={`logo ${isOpen? "open" : ""}`}>
-        <h1>CHDEPZ.</h1>
+    <header className={`nav ${isOpen ? "open" : ""}`}>
+      <div className={`logo ${isOpen ? "open" : ""}`}>
+        <Link to="/" style={{ textDecoration: "none" }} onClick={closeMenu}>
+          <h1>CHDEPZ.</h1>
+        </Link>
       </div>
-      <div className='menu-toggle' onClick={toggleMenu}>
-        <div className={`hamburger ${isOpen ? 'open' : ''}`}>
+      <div className="menu-toggle" onClick={toggleMenu}>
+        <div className={`hamburger ${isOpen ? "open" : ""}`}>
           <span></span>
           <span></span>
           <span></span>
         </div>
       </div>
-      <nav className={`nav-menu ${isOpen ? 'open' : ''}`}>
+      <nav className={`nav-menu ${isOpen ? "open" : ""}`}>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li>
+            <NavLink
+              to="/"
+              style={{ textDecoration: "none" }}
+              onClick={() => {
+                closeMenu();
+              }}
+              className={({ isActive }) =>
+                `link ${isActive ? "active" : ""}`
+              }>
+                Home
+              </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/allprojects"
+              style={{ textDecoration: "none" }}
+              onClick={() => {
+                closeMenu();
+              }}
+              className={({ isActive }) =>
+                `link ${isActive ? "active" : ""}`
+              }>
+               All Projects
+              </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/contact-form"
+              style={{ textDecoration: "none" }}
+              onClick={() => {
+                closeMenu();
+              }}
+              className={({ isActive }) =>
+                `link ${isActive ? "active" : ""}`
+              }>
+               Contact
+              </NavLink>
+          </li>
         </ul>
       </nav>
     </header>

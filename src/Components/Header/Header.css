@@ -12,10 +12,11 @@
 .logo {
   width: 40%;
   margin-left: 60px;
+
 }
 .logo h1 {
   font-size: 20px;
-  margin: 0;
+  margin: 0;;
 }
 .logo h1{
   color: rgb(255, 255, 255);
@@ -94,14 +95,29 @@
   margin-right: 60px;
 }
 
-.nav-menu li {
+.nav-menu .link {
   margin-right: 20px;
-}
-.nav-menu li a {
+  
   text-decoration: none;
   color: rgb(253, 231, 203);
-  font-weight: 400;
+  font-weight: 300;
 }
+
+.nav-menu .link.active{
+    color: green;
+  }
+
+  .nav-menu .link.active{
+    color: rgb(255, 255, 255);
+   font-weight: 600;
+    background-position: 0;
+    background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text12-animation 6s infinite linear;
+    animation-fill-mode: forwards;
+  }
 
 @media screen and (max-width: 768px) {
   .menu-toggle {
@@ -126,20 +142,19 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 5px;
   }
 
-  .nav-menu li {
+.nav-menu .link {
     margin-right: 0;
-    margin-bottom: 10px;
-  }
-  .nav-menu li a {
-   margin-left: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
     color: rgb(253, 231, 203);
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 400;
-   
   }
 
+  
   .nav-menu.open {
     display: block;
   }
