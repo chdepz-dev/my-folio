@@ -1,0 +1,105 @@
+.contact{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 320px;
+    /* border: 2px solid white; */
+}
+
+.contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-wrapper h1{
+    margin: 30px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+   font-weight: 400;
+    background-position: 0;
+    background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text12-animation 6s infinite linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes text12-animation {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 200px;
+    }
+    100% {
+      background-position: 0;
+    }
+  }
+  .contact-wrapper p{
+    font-size: 15px;
+    margin: 0;
+    color: #909090;
+  }
+  .contact-button button {
+    width: 180px;
+    height: 35px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(to right, rgb(59, 59, 59), #0c0c0c);
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #0c0c0c;
+    transition-duration: 0.3s;
+  }
+  
+  .contact-button button:hover {
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 4px rgb(185, 185, 185), 2px 2px 10px rgb(97, 97, 97);
+  }
+  
+  .contact-button button:active {
+    transform: scale(0.95);
+  }
+  .contact a{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    /* font-size: 15px; */
+    color: rgb(255, 255, 255);
+    }
+    .contact i{
+        margin-left: 10px;
+      text-transform: capitalize;
+    font-size: 16px;
+  }
+  .contact a{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    background-position: 0;
+    background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text12-animation 6s infinite linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes text12-animation {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 200px;
+    }
+    100% {
+      background-position: 0;
+    }
+  }

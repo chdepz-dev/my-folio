@@ -5,6 +5,8 @@ import About from './About'
 import Education from '../Components/Education/Education'
 import Skills from '../Components/Skills/Skills'
 import Projects from '../Components/Projects/Projects'
+import Contact from '../Components/Contact/Contact'
+import Footer from '../Components/Footer/Footer'
 
 
 const Home = () => {
@@ -16,6 +18,8 @@ const Home = () => {
       <Education />
    <Skills />
     <Projects />
+    <Contact />
+    <Footer />
      </>
   )
 }

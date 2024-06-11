@@ -71,7 +71,7 @@
 }
 
 .left-hero h1:nth-child(4) {
-  font-size: 28px;
+  /* font-size: 28px; */
   line-height: 1;
   font-weight: bold;
   color: #8f9094;
@@ -226,7 +226,14 @@
     font-size: 25px;
     text-align: center;
   }
-
+  .left-hero h1:nth-child(4) {
+    font-size: 28px;
+    line-height: 1;
+    font-weight: bold;
+    color: #8f9094;
+    /* -webkit-text-stroke: 0.9px white;
+    -webkit-text-fill-color: black; */
+  }
   .buttons {
     justify-content: center;
   }

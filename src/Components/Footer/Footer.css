@@ -1,0 +1,34 @@
+.footer{
+    color: #909090;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 50px 0px;
+}
+.footer p{
+    font-size: 17px;
+    /* font-weight: 400; */
+    margin: 0;
+}
+.footer p span{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    background-position: 0;
+    background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text12-animation 6s infinite linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes text12-animation {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 200px;
+    }
+    100% {
+      background-position: 0;
+    }
+  }
