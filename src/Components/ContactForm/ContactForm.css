@@ -1,88 +1,143 @@
+.contact-form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0px;
+}
+.contact-form h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.contact-form h1 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-position: 0;
+  background: linear-gradient(
+    to right,
+    #000000 0,
+    #1aa76c 10%,
+    rgb(253, 231, 203) 20%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text12-animation 6s infinite linear;
+  animation-fill-mode: forwards;
+}
 
-.contact-form{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 10px 0px;
-}
-.contact-form h1{
-    font-size: 22px;
-    font-weight: 600;
-}
-.contact-form h1{
-    color: rgb(255, 255, 255);
-   font-weight: bold;
+@keyframes text12-animation {
+  0% {
     background-position: 0;
-    background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: text12-animation 6s infinite linear;
-    animation-fill-mode: forwards;
   }
-  
-  @keyframes text12-animation {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 200px;
-    }
-    100% {
-      background-position: 0;
-    }
+  60% {
+    background-position: 200px;
   }
-form{
-    display: flex;
-    flex-direction: column;
-    /* border: 2px solid white; */
-    width: 50%;
-    padding: 30px 40px;
-    border-radius: 20px;
-    box-shadow: #1aa76ce6 0px 0px 0px 1.5px;
+  100% {
+    background-position: 0;
+  }
 }
-form input{
-    padding: 10px;
-    outline: 1px solid rgb(112, 112, 112);
-    border: none;
-    border-radius: 5px;
-    margin-top: 5px ;
-    background-color: #000000;
-    color: white;
-    font-family: "Poppins" sans-serif;
-    font-size: 15px;
+form {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid white; */
+  width: 50%;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: #1aa76ce6 0px 0px 0px 1.5px;
 }
-form textarea{
-    padding: 10px;
-    outline: 1px solid rgb(112, 112, 112);
-    border: none;
-    border-radius: 5px;
-    margin-top: 5px ;
-    background-color: #000000;
-    color: white;
-  
+form input {
+  padding: 10px;
+  outline: 1px solid rgb(112, 112, 112);
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: #000000;
+  color: white;
+  font-family: "Poppins" sans-serif;
+  font-size: 15px;
 }
-
-.submit-button{
-    margin-top: 20px;
-    width: 30%;
+form textarea {
+  padding: 10px;
+  outline: 1px solid rgb(112, 112, 112);
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: #000000;
+  color: white;
 }
 
-@media(max-width: 920px){
-    form{
-        width: 70%;
-    }
+.submit-button {
+  margin-top: 20px;
+  width: 180px;
+  height: 35px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(to right, rgb(59, 59, 59), #0c0c0c);
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #0c0c0c;
+  transition-duration: 0.3s;
 }
 
-@media(max-width: 756px){
-    form{
-        width: 90%;
-        padding: 30px 20px;
-    }
-    form textarea{
-        font-size: 16px;
-    }
+.submit-button:hover {
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 4px rgb(185, 185, 185), 2px 2px 10px rgb(97, 97, 97);
+}
+
+.submit-button:active {
+  transform: scale(0.95);
+}
+
+.submit-button {
+  color: rgb(255, 255, 255);
+  /* font-weight: bold; */
+  background-position: 0;
+  background: linear-gradient(
+    to right,
+    #000000 0,
+    #1aa76c 10%,
+    rgb(253, 231, 203) 20%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: text12-animation 6s infinite linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text12-animation {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 200px;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+
+@media (max-width: 920px) {
+  form {
+    width: 70%;
+  }
+}
+
+@media (max-width: 756px) {
+  form {
+    width: 90%;
+    padding: 30px 20px;
+  }
+  form textarea {
+    font-size: 16px;
+  }
+  .submit-button {
+    height: 50px;
+  }
 }
