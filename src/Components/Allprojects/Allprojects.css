@@ -1,0 +1,412 @@
+/* Base Styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  .allprojects {
+    width: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    
+    /* align-items: center; */
+  }
+
+  .allprojects h5{
+    color:#909090;
+    margin: 0px 85px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+/* border: 2px solid white; */
+  }
+  
+  .allprojects h1 {
+    color: rgb(255, 255, 255);
+    /* border: 2px solid white; */
+    font-size: 26px;
+    margin: 50px 85px 5px;
+    font-weight: 500;
+    background-position: 0;
+    background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text12-animation 6s infinite linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes text12-animation {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 200px;
+    }
+    100% {
+      background-position: 0;
+    }
+  }
+  
+  .allprojects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px 0px;
+    justify-content: center;
+  }
+  
+  .allprojects-container .allproject {
+    width: 85%;
+    margin: 0 60px;
+    display: flex;
+    border-radius: 60px;
+    border: 1px solid white;
+    overflow: hidden;
+  }
+  
+  .allproject-img {
+    width: 60%;
+  }
+  
+  .allprojects-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 60px 0px;
+  }
+  
+  .allproject-desc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 40px;
+    gap: 5px;
+    color: rgb(253, 231, 203);
+  }
+  
+  .allproject-desc h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .allproject-desc h2{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    background-position: 0;
+    background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text12-animation 6s infinite linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes text12-animation {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 200px;
+    }
+    100% {
+      background-position: 0;
+    }
+  }
+  .allproject-desc p span {
+    color: #1aa76c;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .allproject-desc span{
+    color: rgb(255, 255, 255);
+   font-weight: 500;
+    background-position: 0;
+    background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text12-animation 6s infinite linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes text12-animation {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 200px;
+    }
+    100% {
+      background-position: 0;
+    }
+  }
+  
+  .allproject-desc p {
+    margin: 0;
+    font-size: 15px;
+    color: rgb(144, 144, 144);
+    text-align: justify;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  
+  .allproject-desc h3 {
+    margin: 0;
+    font-weight: 500;
+    color: #1aa76c;
+    font-size: 16px;
+  }
+  .allproject-desc h3{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    background-position: 0;
+    background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text12-animation 6s infinite linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes text12-animation {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 200px;
+    }
+    100% {
+      background-position: 0;
+    }
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .btn a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: rgb(253, 231, 203);
+    font-size: 16px;
+    z-index: 3;
+  }
+  .project-desc .btn a{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    background-position: 0;
+    background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text12-animation 6s infinite linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes text12-animation {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 200px;
+    }
+    100% {
+      background-position: 0;
+    }
+  }
+  .btn i {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  .btn {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .btn button {
+    width: 160px;
+    height: 45px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(to right, rgb(59, 59, 59), #0c0c0c);
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #0c0c0c;
+    transition-duration: 0.3s;
+  }
+  
+  .btn button:hover {
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 4px rgb(185, 185, 185), 2px 2px 10px rgb(97, 97, 97);
+  }
+  
+  .btn button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1000px) {
+    .allprojects-container{
+        width: 100%;
+    }
+    .allproject{
+        flex-direction: column;
+    }
+    .allproject-img{
+        width: 100%;
+    }
+    .allproject-desc{
+        width: 100%;
+    }
+    .projects h1 {
+      font-size: 24px;
+      margin: 0 40px;
+    }
+  
+    .allproject-desc h2 {
+      font-size: 20px;
+    }
+  
+    .allproject-desc p span {
+      font-size: 16px;
+    }
+  
+    .allproject-desc p {
+      font-size: 14px;
+    }
+  
+    .allproject-desc h3 {
+      font-size: 14px;
+    }
+  
+    .btn button {
+      width: 150px;
+      height: 40px;
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .allprojects h1{
+        margin: 50px 25px 0px;
+    }
+    .allprojects h5{
+            margin: 0 25px;
+    }
+
+  
+    .allproject-desc h2 {
+      font-size: 20px;
+    }
+  
+    .allproject-desc p span {
+      font-size: 18px;
+    }
+  
+    .allproject-desc p {
+      font-size: 15px;
+    }
+  
+    .allproject-desc h3 {
+      font-size: 15px;
+    }
+  
+    .btn button {
+      width: 140px;
+      height: 38px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .allprojects-container .allproject{
+        width: 100%;
+        margin: 0 10px;
+        }
+        .allproject-desc{
+        padding: 25px 20px;
+
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .projects h1 {
+      font-size: 22px;
+      margin: 0 30px;
+    }
+  
+    .projects-container {
+      gap: 20px;
+    }
+  
+    .projects-container .project {
+      margin: 0 20px;
+      flex-direction: column;
+      padding-bottom: 25px;
+    }
+  
+    .project-img {
+      width: 100%;
+    }
+  
+    .projects-container img {
+      border-radius: 60px 60px 0 0;
+    }
+  
+    .project-desc {
+      width: 100%;
+      padding: 10px 15px;
+    }
+  
+    .project-desc h2 {
+      font-size: 18px;
+    }
+  
+    .project-desc p span {
+      font-size: 16px;
+    }
+  
+    .project-desc p {
+      font-size: 15px;
+    }
+  
+    .project-desc h3 {
+      font-size: 15px;
+    }
+  .btn{
+    gap: 5px;
+  }
+    .btn button {
+      width: 150px;
+      height: 50px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 576px){
+    .projects h1 {
+      font-size: 22px;
+      margin: 0 30px;
+    }
+  
+    .projects-container {
+      gap: 20px;
+    }
+  
+    .projects-container .project {
+      margin: 0 10px;
+      flex-direction: column;
+      padding-bottom: 25px;
+    }
+  
+  }
