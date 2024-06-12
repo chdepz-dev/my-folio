@@ -7,19 +7,11 @@
 
 }
 
-#tsparticles {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
 
 .left-hero,
 .right-hero {
   position: relative;
-  z-index: 0;
+  /* z-index: 0; */
   color: #3ccf91;
 }
 
@@ -35,7 +27,7 @@
 .left-hero h1 {
   font-weight: bold;
   margin: 0;
-  color: rgb(253, 231, 203);
+  color: #ffffff;
 
 }
 
@@ -47,10 +39,10 @@
   -webkit-text-fill-color: black; */
 }
 .left-hero h1 span{
-  color: rgb(255, 255, 255);
+  color: #ffffff;
  font-weight: bold;
   background-position: 0;
-  background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+  background: linear-gradient(to right, #000000 0, #1aa76c 10%,#ffffff 20%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

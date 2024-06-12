@@ -5,7 +5,7 @@
   align-items: center;
   padding: 30px;
   z-index: 10;
- color: rgb(253, 231, 203);
+ color: #ffffff;
   background-color: #000000;
 }
 
@@ -22,7 +22,7 @@
   color: rgb(255, 255, 255);
  font-weight: bold;
   background-position: 0;
-  background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+  background: linear-gradient(to right, #000000 0, #1aa76c 10%, #ffffff 20%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -59,7 +59,7 @@
   display: block;
   width: 100%;
   height: 2px;
-  background-color: rgb(253, 231, 203);
+  background-color: #ffffff;
   transition: all 0.3s ease;
 }
 
@@ -99,7 +99,7 @@
   margin-right: 20px;
   
   text-decoration: none;
-  color: rgb(253, 231, 203);
+  color: #ffffff;
   font-weight: 300;
 }
 
@@ -111,7 +111,7 @@
     color: rgb(255, 255, 255);
    font-weight: 600;
     background-position: 0;
-    background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+    background: linear-gradient(to right, #000000 0, #1aa76c 10%, #ffffff 20%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -149,7 +149,7 @@
     margin-right: 0;
     margin-bottom: 15px;
     margin-left: 10px;
-    color: rgb(253, 231, 203);
+    color: #ffffff;
     font-size: 28px;
     font-weight: 400;
   }
@@ -162,9 +162,9 @@
     background-color: #000000;
   }
   .logo.open {
-    color: rgb(253, 231, 203);
+    color: #ffffff;
   }
   .hamburger.open span {
-    background-color: rgb(253, 231, 203);
+    background-color: #ffffff;
   }
 }

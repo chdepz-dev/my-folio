@@ -1,10 +1,7 @@
-
-
-
 .skills {
-    color: white;
+
     width: 90%;
-    margin: 10px auto;
+    margin: 50px auto;
   
     
   }
@@ -20,13 +17,13 @@
   
   .frontend h1 {
     /* color: #fde7cb; */
-    font-weight: 300;
+    font-weight: 500;
     font-size: 23px;
   }
   .frontend h1{
     color: rgb(255, 255, 255);
     background-position: 0;
-    background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+    background: linear-gradient(to right, #000000 0, #1aa76c 10%,#ffffff 20%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;

@@ -14,6 +14,7 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 10px;
+  /* color: #ffffff; */
   -webkit-text-stroke: 2px rgb(255, 255, 255);
   -webkit-text-fill-color: rgb(0, 0, 0);
 }
@@ -41,7 +42,7 @@
 .bio p span{
   color: rgb(255, 255, 255);
   background-position: 0;
-  background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+  background: linear-gradient(to right, #000000 0, #1aa76c 10%, #ffffff 20%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

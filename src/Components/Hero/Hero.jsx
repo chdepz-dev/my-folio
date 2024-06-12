@@ -1,100 +1,13 @@
 import React, { useRef } from "react";
 import "./Hero.css";
-import { useEffect, useMemo, useState } from "react";
-import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim";
+
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import chdepz from "../../assets/chdepz.jpg"
 gsap.registerPlugin(useGSAP);
 
 const Hero = () => {
-  const [init, setInit] = useState(false);
-
-  // this should be run only once per application lifetime
-  useEffect(() => {
-    initParticlesEngine(async (engine) => {
-      await loadSlim(engine);
-    }).then(() => {
-      setInit(true);
-    });
-  }, []);
-
-  const particlesLoaded = (container) => {
-    // console.log(container);
-  };
-
-  const options = useMemo(
-    () => ({
-      background: {
-        color: {
-          value: "#000000",
-        },
-      },
-      fpsLimit: 120,
-      interactivity: {
-        events: {
-          onClick: {
-            enable: true,
-            mode: "push",
-          },
-          onHover: {
-            enable: true,
-            mode: "repulse",
-          },
-        },
-        modes: {
-          push: {
-            quantity: 4,
-          },
-          repulse: {
-            distance: 100,
-            duration: 0.7,
-          },
-        },
-      },
-      particles: {
-        color: {
-          value: "#ffffff",
-        },
-        links: {
-          color: "#ffffff",
-          distance: 150,
-          enable: true,
-          opacity: 0.5,
-          width: 1,
-        },
-        move: {
-          direction: "none",
-          enable: true,
-          outModes: {
-            default: "bounce",
-          },
-          random: false,
-          speed: 2,
-          straight: false,
-        },
-        number: {
-          density: {
-            enable: true,
-          },
-          value: 80,
-        },
-        opacity: {
-          value: 0.5,
-        },
-        shape: {
-          type: "circle",
-        },
-        size: {
-          value: { min: 1, max: 5 },
-        },
-      },
-      detectRetina: true,
-      fullScreen: { enable: false },
-    }),
-    []
-  );
 
   const container = useRef();
   useGSAP(() => {
@@ -140,13 +53,8 @@ const Hero = () => {
   return (
     <div ref={container} className="container">
       <div className="hero">
-        <Particles
-          id="tsparticles"
-          particlesLoaded={particlesLoaded}
-          options={options}
-        />
         <div className="left-hero">
-          <h1>Hello there! This is</h1>
+          <h1>Hello there ! i am ,</h1>
           <h1>
             <span>DIPAK CHAUDHARY.</span>
           </h1>
@@ -191,7 +99,7 @@ const Hero = () => {
         <div className="right-hero">
           <div className="hero-img">
             <img
-              src="https://scontent.fktm6-1.fna.fbcdn.net/v/t39.30808-6/271143730_1339405439814608_6508990784632072882_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=jyacXGOX-9IQ7kNvgF7k5NF&_nc_ht=scontent.fktm6-1.fna&oh=00_AYAaSGgSwTY7GIbyM-lgXgeXJo66RCK-hlbcCMxAFfiXew&oe=6667B7FF"
+              src={chdepz}
               alt=""
             />
           </div>

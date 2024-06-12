@@ -17,7 +17,7 @@
   margin: 0 60px;
   font-weight: 500;
   background-position: 0;
-  background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+  background: linear-gradient(to right, #000000 0, #1aa76c 10%, #ffffff 20%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -72,7 +72,7 @@
   justify-content: center;
   padding: 30px 40px;
   gap: 5px;
-  color: rgb(253, 231, 203);
+  color: #ffffff;
 }
 
 .project-desc h2 {
@@ -84,7 +84,7 @@
   color: rgb(255, 255, 255);
   font-weight: 500;
   background-position: 0;
-  background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+  background: linear-gradient(to right, #000000 0, #1aa76c 10%, #ffffff 20%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -112,7 +112,7 @@
   color: rgb(255, 255, 255);
  font-weight: 500;
   background-position: 0;
-  background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+  background: linear-gradient(to right, #000000 0, #1aa76c 10%, #ffffff 20%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -151,7 +151,7 @@
   color: rgb(255, 255, 255);
   font-weight: 500;
   background-position: 0;
-  background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+  background: linear-gradient(to right, #000000 0, #1aa76c 10%, #ffffff 20%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -182,15 +182,15 @@
   font-family: "Poppins", sans-serif;
   letter-spacing: 0px;
   font-weight: 400;
-  color: rgb(253, 231, 203);
+  color: #ffffff;
   font-size: 16px;
   z-index: 3;
 }
 .project-desc .btn a{
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-weight: 500;
   background-position: 0;
-  background: linear-gradient(to right, #000000 0, #1aa76c 10%, rgb(253, 231, 203) 20%);
+  background: linear-gradient(to right, #000000 0, #1aa76c 10%,#ffffff 20%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -222,7 +222,7 @@
 .btn button {
   width: 160px;
   height: 45px;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;

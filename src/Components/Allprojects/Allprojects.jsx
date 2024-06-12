@@ -52,7 +52,7 @@ function Allprojects() {
 
               <div className="links">
                 <h3>Project Links</h3>
-                <div className="btn">
+                <div className="allproject-btn">
                   <button>
                     {" "}
                     <a href={project.github} target="_blank">
