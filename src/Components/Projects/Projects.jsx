@@ -54,13 +54,13 @@ const Projects = () => {
                   <button>
                     {" "}
                     <a href={project.github} target="_blank">
-                      Github <i class="fa-brands fa-github"></i>
+                      Github <i className="fa-brands fa-github"></i>
                     </a>
                   </button>
                   <button>
                     {" "}
                     <a href={project.live} target="_blank">
-                      Live link <i class="fa-regular fa-star"></i>
+                      Live link <i className="fa-regular fa-star"></i>
                     </a>
                   </button>
                 </div>

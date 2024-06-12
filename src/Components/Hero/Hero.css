@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 650px;
   display: flex;
   flex-direction: row;
 
@@ -271,6 +271,7 @@
   .left-hero img {
     width: 50px;
     height: 40px;
+
   }
   
 
